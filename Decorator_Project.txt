@@ -16,5 +16,5 @@ def a_function_that_returns_a_string_with_newline(s):
 def a_function_that_returns_another_string(string=""):
       return "Another String\n"
 a_function_that_returns_a_string()
-a_function_that_returns_a_string_with_newline(input())
+a_function_that_returns_a_string_with_newline(input("Enter the String to append: "))
 a_function_that_returns_another_string()
